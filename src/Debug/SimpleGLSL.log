@@ -1,0 +1,52 @@
+﻿Build started 27.5.2014 17:06:16.
+     1>Project "D:\Dan\Dropbox\CodeProjects\PGR2_semestralka\src\SimpleGLSL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp pgr2model.cpp
+         pgr2model.cpp
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\pgr2model.cpp(215): warning C4244: '+=' : conversion from 'const unsigned long' to 'unsigned short', possible loss of data
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\pgr2model.cpp(558): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\pgr2model.cpp(603): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\pgr2model.cpp(643): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\pgr2model.cpp(765): warning C4533: initialization of 'header' is skipped by 'goto end_of_load'
+                 d:\dan\dropbox\codeprojects\pgr2_semestralka\src\pgr2model.cpp(618) : see declaration of 'header'
+                 d:\dan\dropbox\codeprojects\pgr2_semestralka\src\pgr2model.cpp(765) : see declaration of 'end_of_load'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\pgr2model.cpp(784): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\pgr2model.cpp(863): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\pgr2model.cpp(888): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\pgr2model.cpp(925): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\common\tools.h(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\common\tools.h(497): warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\common\tools.h(528): warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\common\tools.h(735): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(116): warning C4101: 'floorShader' : unreferenced local variable
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(616): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(630): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(634): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(637): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(640): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(643): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(683): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(719): warning C4244: '+=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(723): warning C4244: '+=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(729): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\dan\dropbox\codeprojects\pgr2_semestralka\src\main.cpp(730): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dan\Dropbox\CodeProjects\PGR2_semestralka\\bin\Debug\PGR2_semestralka.exe" /INCREMENTAL /NOLOGO /LIBPATH:../common/GLFW/msvc10 /LIBPATH:../common/AntTweakBar /LIBPATH:../common/GLEW opengl32.lib glu32.lib glfw.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dan\Dropbox\CodeProjects\PGR2_semestralka\bin\Debug\PGR2_semestralka.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dan\Dropbox\CodeProjects\PGR2_semestralka\bin\Debug\PGR2_semestralka.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         Debug\pgr2model.obj
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         SimpleGLSL.vcxproj -> D:\Dan\Dropbox\CodeProjects\PGR2_semestralka\bin\Debug\PGR2_semestralka.exe
+     1>Done Building Project "D:\Dan\Dropbox\CodeProjects\PGR2_semestralka\src\SimpleGLSL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.21
